@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <img src="your-photo.jpg" alt="Your Photo" class="profile-pic" />
+      <h1>Hello, I'm [Your Name]</h1>
+      <p>Web Developer | Programmer | Tech Enthusiast</p>
+    </div>
+  </header>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js</li>
+        <li>Python, C++</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer with a strong background in computer science. I love building interactive and user-friendly websites.
+      </p>
+      <h3>Education</h3>
+      <p>B.Tech in Computer Science - XYZ University (2021-2025)</p>
+      <h3>Experience</h3>
+      <p>Intern at ABC Tech - Web Development (May 2024 - July 2024)</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #4e0eff;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #4e0eff;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+}
+// You can add interactivity here in the future
+console.log("Portfolio loaded successfully!");
